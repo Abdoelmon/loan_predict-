@@ -33,28 +33,24 @@ Copy code
 ## ⚙️ Requirements
 Install the required libraries:
 
-```bash
 pip install -r requirements.txt
+
 Example requirements.txt
-nginx
-Copy code
 streamlit
 pandas
 numpy
 scikit-learn
 joblib
+
 🚀 How to Run
 1. Train the Model (Optional)
 Open the Jupyter Notebook and run the training code:
 
-bash
-Copy code
 jupyter notebook loan-prediction-w-various-ml-models.ipynb
 After training, save the model as model.pkl.
 
 2. Run the Streamlit App
-bash
-Copy code
+
 streamlit run deploy.py
 3. Access the Application
 Open the link shown in the terminal (usually: http://localhost:8501) to use the app.
